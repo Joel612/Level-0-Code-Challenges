@@ -1,13 +1,13 @@
 function celsiusToFahrenheit(celsius){
-    var cToF = celsius * 9 / 5 + 32;
-    var result = celsius +'\xB0C is ' + cToF + '\xB0F.';
+    let celsToFahr = celsius * 9 / 5 + 32;
+    let result = celsius +'\xB0C is ' + celsToFahr + '\xB0F.';
         console.log(result);
 }
 
 function fahrenheitToCelsius(fahrenheit){
-    var fToC = (fahrenheit - 32) * 5 / 9;
-    var result = fahrenheit + '\xB0F is ' + fToC + '\xB0C.';
+    let fahrToCels = (fahrenheit - 32) * 5 / 9;
+    let result = fahrenheit + '\xB0F is ' + fahrToCels + '\xB0C.';
         console.log(result);
 }
-celsiusToFahrenheit(53);
-fahrenheitToCelsius(80);
+celsiusToFahrenheit(43);
+fahrenheitToCelsius(40);
