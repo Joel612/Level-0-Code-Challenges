@@ -1,17 +1,13 @@
-const findingVowels = (str) => {
-    const vowels = ['a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U'];
+function findingVowels(str) {
+  var vowelsArray = ["a", "e", "i", "o", "u"];
+  var presentvowel = [];
 
-    var letters = str.split('');
-    var vowelsFound = []
-
-    for (var i in letters) {
-        if (vowels.includes(letters[i])) {
-            vowelsFound.push(letters[i]);
-        }
+  for (let i = 0; i < vowelsArray.length; i++) {
+    if (str.toLowerCase().includes(vowelsArray[i])) {
+      presentvowel.push(vowelsArray[i]);
     }
-    
-    console.log("Vowels:", vowelsFound.join(","));
+  }
+  console.log("Vowels:",presentvowel);
 }
 
-var str = "ILoveCoding";
-findingVowels(str);
+findingVowels("UmuziUmuzi");
