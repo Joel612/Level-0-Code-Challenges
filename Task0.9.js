@@ -1,6 +1,6 @@
 function findingVowels(str) {
-  var vowelsArray = ["a", "e", "i", "o", "u"];
-  var presentvowel = [];
+  const vowelsArray = ["a", "e", "i", "o", "u"];
+  const presentvowel = [];
 
   for (let i = 0; i < vowelsArray.length; i++) {
     if (str.toLowerCase().includes(vowelsArray[i])) {
@@ -10,4 +10,4 @@ function findingVowels(str) {
   console.log("Vowels:",presentvowel);
 }
 
-findingVowels("UmuziUmuzi");
+findingVowels("UmuziUmuzi");;
