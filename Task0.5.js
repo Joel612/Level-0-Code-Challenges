@@ -8,7 +8,3 @@ function findArea( side1,  side2,  side3)
     return Math.sqrt(perimeter * (perimeter - side1) *
                     (perimeter - side2) * (perimeter - side3));
 }
- 
-    
- 
-  ///console.log( "Area is " + findArea(side1, side2, side3))
